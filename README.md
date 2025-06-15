@@ -51,9 +51,11 @@ You filled in the callsign(name) in correctly for now its capital sensitive<br/>
 You're using the latest version of GeoFS<br/>
 Your script manager is working correctly<br/>
 You don't have conflicting scripts running<br/>
-If it still doesn’t work, please create an issue on the GitHub page.<br/>
+If it still doesn’t work, please create an issue on the GitHub page<br/>
 
-### Know issues: it does not work when u have chat enabled, if u type in the callsign the keybinds ingame are still active<br/>
+### Know issues:<br/>
+It does not work when u have chat enabled<br/>
+If u type in the callsign the keybinds ingame are still active<br/>
 
 ## Contribution<br/>
 Found a bug? Want to add features? Fork the project and submit a pull request! All contributions are welcome.<br/>
