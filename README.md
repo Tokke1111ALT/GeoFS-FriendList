@@ -1,10 +1,10 @@
 # GeoFS Friends List – Tampermonkey Script
 A handy script/addon to add friends and see who is online in GeoFS (Geography Flight Simulator). 
 
-GeoFS Friends List Screenshot
-![image](https://github.com/user-attachments/assets/fb122e19-7b32-4231-9081-b9b669a1b192)
-Friends list:
-![Image friend list](https://github.com/user-attachments/assets/261ddc5a-d633-43a9-95e1-d9d7169b010c)
+GeoFS Friends List Screenshot<br/>
+![image](https://github.com/user-attachments/assets/fb122e19-7b32-4231-9081-b9b669a1b192)<br/>
+Friends list:<br/>
+![Image friend list](https://github.com/user-attachments/assets/261ddc5a-d633-43a9-95e1-d9d7169b010c)<br/>
 
 ## Description
 This Tampermonkey script adds a friends list to GeoFS , so you can always know which pilots (by their callsigns) are currently online. You can manually add friends, and the script will track whether they're active in the game.
