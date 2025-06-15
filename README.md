@@ -47,11 +47,11 @@ No external servers or tracking involved
 ## Not Working?
 Make sure:
 
-You filled in the callsign(name) in correctly for now its capital sensitive
-You're using the latest version of GeoFS
-Your script manager is working correctly
-You don't have conflicting scripts running
-If it still doesn’t work, please create an issue on the GitHub page.
+You filled in the callsign(name) in correctly for now its capital sensitive<br/>
+You're using the latest version of GeoFS<br/>
+Your script manager is working correctly<br/>
+You don't have conflicting scripts running<br/>
+If it still doesn’t work, please create an issue on the GitHub page.<br/>
 
 ## Contribution
 Found a bug? Want to add features? Fork the project and submit a pull request! All contributions are welcome.
