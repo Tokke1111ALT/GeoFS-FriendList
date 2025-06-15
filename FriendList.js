@@ -5,6 +5,7 @@
 // @description  Add friends and see who is online 
 // @author       Tokke_1111
 // @match        https://www.geo-fs.com/geofs.php*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=geo-fs.com
 // @grant        none
 // ==/UserScript==
 
