@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         GeoFS Friends List
+// @name         GeoFS Friends List - No Map (Bug Fixed + Offline Remove + Null Fix)
 // @namespace    http://tampermonkey.net/
-// @version      2.1
-// @description  Add friends and see who is online
+// @version      2.2
+// @description  Add friends and see who is online without map markers or distance display
 // @author       Tokke_1111
 // @match        https://www.geo-fs.com/geofs.php*
 // @grant        none
@@ -127,12 +127,12 @@
             cursor: pointer;
             margin-left: 140px;
             margin-top: 10px;
-
+            filter: drop-shadow(0 0 0.75 black); /* Black outline effect */
             transition: opacity 0.2s ease, filter 0.3s ease;
         }
 
         .friend-icon.online-status-green {
-            filter: brightness(1.8) invert(62%) sepia(96%) saturate(1900%) hue-rotate(90deg);
+            filter: brightness(1.8) invert(62%) sepia(96%) saturate(1900%) hue-rotate(90deg) drop-shadow(0 0 0 black);
         }
 
         .friend-icon:hover {
@@ -156,7 +156,7 @@
     `;
     document.body.appendChild(ui);
 
-    // Inject friend icon on the side of player count
+    // Injecteer friend icon naast player count
     const observer = new MutationObserver(() => {
         const playerCountDiv = document.querySelector(".geofs-player-count");
         if (playerCountDiv && !document.querySelector(".friend-icon")) {
@@ -193,7 +193,7 @@
     };
 
     function updateFriendLists(users = {}) {
-        const friends = getFriends();
+        const friends = getFriends().filter(f => f && f.trim());
         const onlineList = document.querySelector(".friend-list-ul-online");
         const offlineList = document.querySelector(".friend-list-ul-offline");
 
@@ -262,7 +262,7 @@
     // Update every 2 minutes
     setInterval(() => {
         updateFriendLists(window.multiplayer?.users || {});
-    }, 120000); // 2 minutes
+    }, 120000); // 2 minuten
 
     // Initial update after page load
     setTimeout(() => {
