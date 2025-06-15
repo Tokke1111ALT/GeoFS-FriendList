@@ -2,10 +2,13 @@
 A handy script/addon to add friends and see who is online in GeoFS (Geography Flight Simulator). 
 
 GeoFS Friends List Screenshot
-(Optional: add a screenshot of the UI here)
+![image](https://github.com/user-attachments/assets/fb122e19-7b32-4231-9081-b9b669a1b192)
+Friends list:
+![Image friend list](https://github.com/user-attachments/assets/261ddc5a-d633-43a9-95e1-d9d7169b010c)
 
 ## Description
 This Tampermonkey script adds a friends list to GeoFS , so you can always know which pilots (by their callsigns) are currently online. You can manually add friends, and the script will track whether they're active in the game.
+
 
 The script shows:
 
@@ -29,6 +32,14 @@ Automatically see who is online
 Color indication (green/black) for online/offline status
 Automatic updates every 2 minutes
 
+## Feature ideas
+Teleport to friend
+Marking them on map
+Name color in-game
+Private chat box (Groups chats)
+(Distance from you to friend)
+
+
 ## UI Location
 After installation, a friends icon will appear next to the player count in GeoFS. Click it to open the friend list panel.
 
@@ -42,6 +53,7 @@ No external servers or tracking involved
 ## Not Working?
 Make sure:
 
+You filled in the callsign(name) in correctly for now its capital sensitive
 You're using the latest version of GeoFS
 Your script manager is working correctly
 You don't have conflicting scripts running
