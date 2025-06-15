@@ -1,2 +1,58 @@
-# GeoFS-FriendList
-Addon for GeoFS, that lets you add your friends and see if they are online.
+# GeoFS Friends List – Tampermonkey Script
+A handy script/addon to add friends and see who is online in GeoFS (Geography Flight Simulator). 
+
+GeoFS Friends List Screenshot
+(Optional: add a screenshot of the UI here)
+
+# Description
+This Tampermonkey script adds a friends list to GeoFS , so you can always know which pilots (by their callsigns) are currently online. You can manually add friends, and the script will track whether they're active in the game.
+
+The script shows:
+
+✅ Online friends (with aircraft name)
+❌ Offline friends
+🟢/⚫ Status icon next to the player count indicating if any friends are online
+All data is stored locally using localStorage.
+
+# Installation
+Install a userscript manager such as:
+Tampermonkey
+Greasemonkey
+Go to the script page or download the .user.js file.
+Click "New Script" in your manager and paste the contents of the script.
+Open GeoFS and click the friends icon next to the player counter to open the list.
+# Features
+Add friends by their callsign
+Remove friends from your list
+Automatically see who is online
+Color indication (green/black) for online/offline status
+Automatic updates every 2 minutes
+# UI Location
+After installation, a friends icon will appear next to the player count in GeoFS. Click it to open the friend list panel.
+
+# Data Storage
+All friends are stored in localStorage. This means:
+
+The list persists between sessions
+Only you have access to this data
+No external servers or tracking involved
+# Not Working?
+Make sure:
+
+You're using the latest version of GeoFS
+Your script manager is working correctly
+You don't have conflicting scripts running
+If it still doesn’t work, please create an issue on the GitHub page.
+
+# Contribution
+Found a bug? Want to add features? Fork the project and submit a pull request! All contributions are welcome.
+
+# License
+This project is licensed under the MIT License . You're free to use, modify, and share it.
+
+# Contact / Feedback
+For feedback or suggestions, feel free to reach out via:
+
+Discord: Tokke_1111
+GitHub: Tokke_1111
+# Have fun flying and tracking friends in GeoFS!
