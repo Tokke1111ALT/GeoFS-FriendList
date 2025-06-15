@@ -62,10 +62,11 @@ This project is licensed under the MIT License . You're free to use, modify, and
 ## Contact / Feedback
 For feedback or suggestions, feel free to reach out via:
 
-Discord: Tokke_1111
+Discord: Tokke_1111<br/>
 GitHub: Tokke_1111
 
-##GeoFS Friends List Screenshot:<br/>
+## GeoFS Friends List Screenshot:<br/>
+Icon:<br/>
 ![image](https://github.com/user-attachments/assets/fb122e19-7b32-4231-9081-b9b669a1b192)<br/>
 Friends list:<br/>
 ![Image friend list](https://github.com/user-attachments/assets/261ddc5a-d633-43a9-95e1-d9d7169b010c)<br/>
