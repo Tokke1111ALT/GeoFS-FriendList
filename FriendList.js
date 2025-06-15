@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         GeoFS Friends List - No Map (Bug Fixed + Offline Remove + Null Fix)
+// @name         GeoFS Friends List
 // @namespace    http://tampermonkey.net/
 // @version      2.2
-// @description  Add friends and see who is online without map markers or distance display
+// @description  Add friends and see who is online 
 // @author       Tokke_1111
 // @match        https://www.geo-fs.com/geofs.php*
 // @grant        none
@@ -156,7 +156,7 @@
     `;
     document.body.appendChild(ui);
 
-    // Injecteer friend icon naast player count
+    // Inject friend icon against player count
     const observer = new MutationObserver(() => {
         const playerCountDiv = document.querySelector(".geofs-player-count");
         if (playerCountDiv && !document.querySelector(".friend-icon")) {
@@ -262,7 +262,7 @@
     // Update every 2 minutes
     setInterval(() => {
         updateFriendLists(window.multiplayer?.users || {});
-    }, 120000); // 2 minuten
+    }, 120000); // 2 minutes
 
     // Initial update after page load
     setTimeout(() => {
