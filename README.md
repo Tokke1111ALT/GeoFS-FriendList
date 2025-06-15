@@ -53,6 +53,8 @@ Your script manager is working correctly<br/>
 You don't have conflicting scripts running<br/>
 If it still doesn’t work, please create an issue on the GitHub page.<br/>
 
+### Know issue: it does not work when u have chat enabled<br/>
+
 ## Contribution<br/>
 Found a bug? Want to add features? Fork the project and submit a pull request! All contributions are welcome.<br/>
 
