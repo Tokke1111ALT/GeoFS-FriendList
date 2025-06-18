@@ -30,8 +30,10 @@ Automatic updates every 2 minutes<br/>
 Teleport to friend<br/>
 Marking them on map<br/>
 Name color in-game<br/>
+Name color in-chat<br/>
 Private chat box (Groups chats)<br/>
 (Distance from you to friend)<br/>
+Save player-ID so if ur friend changes Callsign U will see him online in ur friendlist under his current callsign (currently working on)<br/>
 
 
 ## UI Location<br/>
@@ -56,6 +58,7 @@ If it still doesn’t work, please create an issue on the GitHub page<br/>
 ### Know issues:<br/>
 It does not work when u have chat enabled<br/>
 If u type in the callsign the keybinds ingame are still active<br/>
+Your're friend won't appear anymore if he changed his Callsign (see Feature ideas)<br/>
 
 ## Contribution<br/>
 Found a bug? Want to add features? Fork the project and submit a pull request! All contributions are welcome.<br/>
