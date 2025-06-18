@@ -20,20 +20,20 @@ Click "New Script" in your manager and paste the contents of the script.<br/>
 Open GeoFS and click the friends icon next to the player counter to open the list.<br/>
 
 ## Features<br/>
-Add friends by their callsign<br/>
-Remove friends from your list<br/>
-Automatically see who is online<br/>
-Color indication (green/black) for online/offline status<br/>
-Automatic updates every 2 minutes<br/>
+- Add friends by their callsign<br/>
+- Remove friends from your list<br/>
+- Automatically see who is online<br/>
+- Color indication (green/black) for online/offline status<br/>
+- Automatic updates every 2 minutes<br/>
 
 ## Feature ideas<br/>
-Teleport to friend<br/>
-Marking them on map<br/>
-Name color in-game<br/>
-Name color in-chat<br/>
-Private chat box (Groups chats)<br/>
-(Distance from you to friend)<br/>
-Save player-ID so if ur friend changes Callsign U will see him online in ur friendlist under his current callsign (currently working on)<br/>
+- Teleport to friend<br/>
+- Marking them on map<br/>
+- Name color in-game<br/>
+- Name color in-chat<br/>
+- Private chat box (Groups chats)<br/>
+- (Distance from you to friend)<br/>
+- Save player-ID so if ur friend changes Callsign, U will see him online in ur friendlist under his current callsign (currently working on)<br/>
 
 
 ## UI Location<br/>
