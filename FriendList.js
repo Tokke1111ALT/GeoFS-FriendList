@@ -11,6 +11,7 @@
 
 (function () {
     'use strict';
+     console.log(Friend List loaded, please turn off chat in order for this to work.)
 
     // ===== Helper Functions =====
     function getFriends() {
