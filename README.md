@@ -12,12 +12,15 @@ The script shows:<br/>
 All data is stored locally using localStorage.<br/>
 
 ## Installation<br/>
-Install a userscript manager such as:<br/>
-Tampermonkey<br/>
-Greasemonkey<br/>
-Go to the script page or download the .user.js file.<br/>
-Click "New Script" in your manager and paste the contents of the script.<br/>
-Open GeoFS and click the friends icon next to the player counter to open the list.<br/>
+1. Install a userscript manager such as:<br/>
+   - Tampermonkey<br/>
+   - Greasemonkey<br/>
+2. Go to the script page or download the `friendlist.js` file<br/>
+3. Click "New Script" in your manager and paste the contents of the script<br/>
+4. Save the script (make sure you enable the script)<br/>
+5. Open GeoFS and click the friends icon next to the player counter to open the list<br/>
+<br/>
+Troubleshooting: If it's not working, try to refresh the GeoFS tab or else feel free to contact me or create an issue<br/>
 
 ## Features<br/>
 - Add friends by their callsign<br/>
@@ -55,10 +58,10 @@ Your script manager is working correctly<br/>
 You don't have conflicting scripts running<br/>
 If it still doesn’t work, please create an issue on the GitHub page<br/>
 
-### Know issues:<br/>
-It does not work when u have chat enabled<br/>
-If u type in the callsign the keybinds ingame are still active<br/>
-Your're friend won't appear anymore if he changed his Callsign (see Feature ideas)<br/>
+### Known issues:<br/>
+You can't click it when you have chat enabled<br/>
+If you type in the callsign, the keybinds ingame are still active<br/>
+Your friend won't appear anymore if he changed his Callsign (see Feature ideas)<br/>
 
 ## Contribution<br/>
 Found a bug? Want to add features? Fork the project and submit a pull request! All contributions are welcome.<br/>
