@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         GeoFS Friends List BETA
+// @name         GeoFS Friends List Auto-Update BETA
 // @namespace    http://tampermonkey.net/
 // @version      3(BETA)
-// @description  Add friends and see who is online 
+// @description  Updates the Friendlist beta script automatically so you have the latest version without you always need to copy the new script
 // @author       Tokke_1111
 // @match        https://www.geo-fs.com/geofs.php*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=geo-fs.com
